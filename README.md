@@ -4,6 +4,10 @@ A [Cartridge](http://accenture.github.io/adop-docker-compose/docs/operating/cart
 
 This cartridge consists of source code repositories and jenkins jobs for getting started with [Flyway](https://flywaydb.org/) and should help people get into DB migrations for Relational Databases.
 
+## Prerequisites
+
+ * Make sure [adop-pluggable-scm](https://github.com/Accenture/adop-pluggable-scm) is loaded into your ADOP/C.
+
 ## Source code repositories
 
 Cartrige loads a repo containing some example SQL.
@@ -25,5 +29,3 @@ If you have any problems with or questions about this image, please contact us t
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
 
 Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/Accenture/adop-platform-management/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
-
-
